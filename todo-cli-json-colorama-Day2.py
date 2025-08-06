@@ -42,6 +42,7 @@ def display_tasks(tasks):
 
             print(f"{idx}. {task['title']} - {status} - {task['timestamp']}")
 
+#Adding the task
 def add_task(tasks):
     title = input("Enter task title: ").strip()
     if title:
@@ -53,7 +54,8 @@ def add_task(tasks):
 
         save_tasks(tasks)
         print(Fore.GREEN + "Task added Successfully.")
-
+        
+#removing the task
 def remove_task(tasks):
     display_tasks(tasks)
     try:
@@ -67,6 +69,8 @@ def remove_task(tasks):
     except ValueError:
         print(Fore.RED + "Invalid Input")
 
+
+#marking the task
 def mark_done(tasks):
     display_tasks(tasks)
     try:
@@ -76,15 +80,10 @@ def mark_done(tasks):
             save_tasks(tasks)
             status =  "Completed" if tasks[index]['done'] else "Pending"
             print(Fore.CYAN + f"Task marked as {status}")
-            # if tasks[index]['done']:
-            #     status = "Completed"
-            #     print(Fore.CYAN + f"Task marked as {status}")
-            # else :
-            #     status = "Pending"
-            #     print(Fore.CYAN + f"Task marked as {status}")
     except ValueError:
         print(Fore.RED + "Invalid Input.")
 
+#main function
 def main():
     tasks = load_tasks()
     while True:
@@ -117,4 +116,5 @@ if __name__ == "__main__":
             
                 
             
+
         

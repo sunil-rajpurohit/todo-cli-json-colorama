@@ -53,7 +53,7 @@ $ python todo.py
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/sunil-rajpurohit/todo-cli-json-colorama.git
+git clone https://github.com/sunil-rajpurohit/todo-cli-json-colorama-Day2.git
 cd todo-cli-json-colorama
 
 

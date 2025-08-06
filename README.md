@@ -70,7 +70,7 @@ This is a beginner project for learning purposes. Feel free to fork, modify, and
 ## 👨‍💻 Author
 Sunil Rajpurohit
 Python Enthusiast | Aspiring Developer
-Follow my journey on LinkedIn
+Follow my journey on [LinkedIn](www.linkedin.com/in/sunil-rajpurohit)
 
 ## 💬 Developer Note
 This project was NOT easy. I got stuck multiple times.
